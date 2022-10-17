@@ -1,0 +1,81 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
+body{
+    font-family: 'Open Sans', arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    margin: 0px;
+    padding: 1px;
+    height: 20px;
+    background-color: #dd3333;
+}
+.topbar{
+    font-size: small;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+.topbar_left{
+    display: inline-block;
+    color: white;
+    float: left;
+}
+#Home,#Date,#RssFeed,#Sitemap,#Time{
+    margin-right: 3px;
+}
+#insta_icon,#search_icon,#fb_icon,#linkedin_icon,#tumblr_icon,#twitter_icon{
+    margin-right: 16px;
+}
+.topbar_right{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    float: right;
+    color: white;
+}
+main{
+    margin-left: 125px;
+    margin-right: 125px;
+}
+.ad{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#doctor_image{
+    margin-left: 40px;
+    width: 675px;
+}
+nav{
+    background-color: #11248d;
+    height: 55px;
+}
+.nav_ul{
+    padding-top: 18px;
+}
+.nav_ul li{
+    display: inline;
+    margin-right: 2.1%;
+}
+#trending,#e-paper{
+    display: inline-block;
+    height: 14px;
+    padding: 8px;
+    color: white;
+    background-color: #dd3333;
+}
+.under_navbar{
+    margin-bottom: 15px;
+}
+#e-paper{
+    float: right;
+}
