@@ -1,8 +1,8 @@
-a{
+header a, nav a{
     text-decoration: none;
     color: white;
 }
-a:hover{
+header a:hover, nav a:hover{
     color: black;
 }
 body{
@@ -26,7 +26,6 @@ header{
 .topbar_left{
     display: inline-block;
     color: white;
-    float: left;
 }
 #Home,#Date,#RssFeed,#Sitemap,#Time{
     margin-right: 3px;
@@ -77,5 +76,36 @@ nav{
     margin-bottom: 15px;
 }
 #e-paper{
+    float: right;
+}
+.main_div,.todays_stories,.state,.national_plus_sports,.business_plus_international,.weekly_special,.other_important_links,.advertise_tariff_plan{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.footer_margin{
+    margin-left: 125px;
+    margin-right: 125px;
+}
+.above{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.para{
+    width: 275px;
+}
+.footer_links ul{
+    list-style: none;
+}
+.fb{
+    margin-left: 35px;
+}
+.footer_links ul li{
+    display: inline-block;
+    margin-right: 65px;
+}
+.left_footer_last,.right_footer_last{
+    display: inline-block;
+}
+.right_footer_last{
     float: right;
 }
