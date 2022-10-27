@@ -2,6 +2,9 @@ header a, nav a{
     text-decoration: none;
     color: white;
 }
+a{
+    text-decoration: none;
+}
 header a:hover, nav a:hover{
     color: black;
 }
@@ -108,4 +111,27 @@ nav{
 }
 .right_footer_last{
     float: right;
+}
+.left_div{
+    margin-right: 40px;
+}
+.right_div{
+    margin-left: 40px;
+}
+.todays_stories_heading, .state_heading, .national_heading, .sports_heading, .business_heading, .international_heading, .news_updates_heading, .editorials_heading, .op-ed_heading, .other_important_links_heading, .advertise_tariff_plan_heading{
+    display: inline-block;
+    height: 14px;
+    padding: 8px;
+    color: white;
+    background-color: #11248d;
+    margin-bottom: 10px;
+}
+.weekly_special_heading, .archive_section
+{
+    display: inline-block;
+    height: 14px;
+    padding: 8px;
+    color: white;
+    background-color: #dd3333;
+    margin-bottom: 10px;
 }
