@@ -2,6 +2,9 @@ header a, nav a{
     text-decoration: none;
     color: white;
 }
+img{
+    max-width: fit-content;
+}
 a{
     text-decoration: none;
 }
@@ -95,6 +98,7 @@ nav{
 }
 .para{
     width: 275px;
+    color: white;
 }
 .footer_links ul{
     list-style: none;
@@ -104,7 +108,7 @@ nav{
 }
 .footer_links ul li{
     display: inline-block;
-    margin-right: 65px;
+    margin-right: 60px;
 }
 .left_footer_last,.right_footer_last{
     display: inline-block;
@@ -134,4 +138,91 @@ nav{
     color: white;
     background-color: #dd3333;
     margin-bottom: 10px;
+}
+.column2, .sports, .international{
+    margin-left: 20px;
+}
+.column1, .national, .business{
+    margin-right: 20px;
+}
+.state .column1{
+    margin-right: 25px;
+}
+.state .column2{
+    margin-left: 20px;
+}
+.download_app{
+    border: 7px solid red;
+}
+.download_app_now{
+    margin: 10px;
+    font-size: 170%;
+    text-align: center;
+}
+.download_app img{
+    width: 150px;
+    margin-left: 70px;
+}
+.follow{
+    display: inline-block;
+    margin-left: 60px;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: #1d9bf0;
+}
+.follow a{
+    color: white;
+}
+.advertise_tariff_plan li::before, .other_important_links li::before, .weekly_special li::before{
+    content: "\003E";
+    color: red;
+}
+footer{
+    background-color: #222222;
+}
+footer a, p, .subscribe_footer, .left_footer_last, .right_footer_last{
+    color: white;
+}
+.footer5{
+    padding: 10px;
+    margin-top: 48px;
+}
+.footer1, .footer2, .footer3, .footer4{
+    padding: 10px;
+    margin-top: 33px;
+    margin-bottom: 15px;
+}
+.footer_address{
+    font-family: arial;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.footer_links{
+    margin-bottom: 30px;
+    padding: 6px;
+}
+.footer_last{
+    padding: 10px;
+    background-color: #0d0d0d;
+    padding-bottom: 25px;
+    font-size: small;
+}
+.left_footer_last{
+    color: rgba(255, 255, 255, 0.623);
+    margin-top: 10px;
+    margin-left: 65px;
+}
+.right_footer_last{
+    color:  rgba(255, 255, 255, 0.623);
+    margin-top: 10px;
+    margin-right: 65px;
+}
+.main_div a{
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
 }
