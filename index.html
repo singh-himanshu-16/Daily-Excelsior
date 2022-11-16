@@ -11,14 +11,15 @@
       src="https://kit.fontawesome.com/6877ee33bd.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./index.js" defer></script>
   </head>
 
   <body>
     <header>
       <div class="topbar">
         <div class="topbar_left">
-          <span id="Date">Date &nbsp;|</span>
-          <span id="Time">Time &nbsp;|</span>
+          <span id="Date">Date &nbsp; <span></span>|</span>
+          <span id="Time">Time &nbsp; <span></span>|</span>
           <a href="https://www.dailyexcelsior.com/" target="_blank" id="Home"
             >Home &nbsp;|</a
           >
@@ -37,6 +38,7 @@
           >
         </div>
         <div class="topbar_right">
+          <input type="text" placeholder="Search.." name="search" style="display: none;">
           <i class="fa-solid fa-magnifying-glass" id="search_icon"></i>
           <a href="https://www.facebook.com/dailyexcelsior" id="fb_icon"
             ><i class="fa-brands fa-facebook"></i
